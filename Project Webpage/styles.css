@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.title {
+    float: left;
+    color: aqua;
+    font-family: 'Trebuchet MS';
+    margin-left: 20px;
+}
+
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description {
+    color: #333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us, .contact {
+    flex: 1;
+}
+
+.site-info {
+    margin-top: 30px;
+}
+
+.site-info p {
+    font-size: 0.9em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .logo {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .search-bar {
+        margin-top: 20px;
+    }
+
+    .search-bar input[type="text"] {
+        width: 80%;
+        margin-right: 10px;
+    }
+
+    .search-bar button {
+        width: 18%;
+    }
+
+    .featured .movie {
+        width: 45%;
+    }
+}

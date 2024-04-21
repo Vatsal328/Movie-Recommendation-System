@@ -1,1 +1,1 @@
-* This folder contains the main ipynb file
+This folder contains the main source code notebook.

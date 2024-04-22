@@ -1,1 +1,1 @@
-# Movie-Recommendation-System
+This is the main repository for this project which contains dataset, source code and reports. For more details please refer to the [webpage](https://vatsal328.github.io/) of the project.
